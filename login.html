@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Payoo | Login</title>
+
+</head>
+
+<body class="outfit max-w-[470px] bg-slate-50 min-h-screen mx-auto">
+    <section>
+        <div class="mx-auto w-[240px] pt-40 mb-10">
+            <img src="./images/Logo-full.png" alt="logo" />
+        </div>
+        <div>
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-xl rounded-2xl">
+                    <div class="card-body">
+                        <fieldset class="fieldset">
+                            <label class="label text-lg">Mobile Number</label>
+                            <input id="input-num" maxlength="11" type="text" class="input text-[1rem] border-none bg-[#F4F5F7] rounded-full py-6" placeholder="Enter your number" />
+                            <label class="label text-lg">4 Digit Pin</label>
+                            <input id="input-pin" maxlength="4" type="password" class="input text-[1rem] border-none bg-[#F4F5F7] rounded-full py-6" placeholder="Enter 4 Digit Pin" />
+                            
+                            <button id="login" class="btn btn-primary mt-5  py-6 bg-[#3B25C1] rounded-full text-lg">Login</button>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script/login.js"></script>
+</body>
+
+</html>
