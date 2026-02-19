@@ -11,6 +11,9 @@ document.getElementById('login').addEventListener('click', function(){
 
     if (numValue == "01705830946" && pinValue == "2008"){
         alert("Login Successfull !")
+
+        // window.location.replace('/home.html')
+        window.location.assign('/home.html')
     } else{
         alert("Login Falied !")
     }
